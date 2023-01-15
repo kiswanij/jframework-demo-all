@@ -1,0 +1,4 @@
+2022-11-23 13:56:45,228 [main] ERROR  c.j.c.e.h.JKDefaultExceptionHandler - Cannot invoke "String.length()" because "name" is null
+java.lang.NullPointerException: Cannot invoke "String.length()" because "name" is null
+	at com.app.exception.ExceptionExample1.main(ExceptionExample1.java:10) ~[classes/:na]
+2022-11-23 13:56:56,053 [main] INFO  c.j.c.e.h.JKExceptionHandlerFactory - Register exception handlers for package (com.app)

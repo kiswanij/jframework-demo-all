@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets" xmlns:c="http://xmlns.jcp.org/jsp/jstl/core" xmlns:f="http://xmlns.jcp.org/jsf/core">
+<ui:composition template="/WEB-INF/templates/default.xhtml">
+	<ui:define name="page-title">
+		Roles Management
+	</ui:define>
+	<ui:define name="contents">
+		<h:form>
+			<div class="page-header">
+				<div class="title">User Roles Management</div>
+			</div>
+		</h:form>
+
+		<h:form id="frmRoles" >
+			<p:panelGrid columns="4" id="model" style="margin:auto">
+				<p:autoUpdate />
+				<f:facet name="header">#{msg.get('Roles')} Form</f:facet>
+				<p:outputLabel value="#{msg.get('name')}" for="Name" />
+				<p:inputText type="text" id="Name" value="#{rolesController.model.name}" disabled="#{rolesController.readOnlyMode}" readOnly="#{rolesController.readOnlyMode}"
+					placeholder="Enter value" />
+
+				<f:facet name="footer">
+					<div align="center" style="height: 30px">
+						<p:commandButton value="Add" action="#{rolesController.add}" rendered="#{rolesController.allowAdd}" process="model" />
+						<p:commandButton value="Edit" action="#{rolesController.edit}" rendered="#{rolesController.allowEdit}" process="@this" />
+						<p:commandButton value="Save" action="#{rolesController.save}" rendered="#{rolesController.allowSave}" process="model" />
+						<p:commandButton value="Delete" action="#{rolesController.delete}" rendered="#{rolesController.allowDelete}" process="@this" />
+						<p:commandButton value="Reset" action="#{rolesController.reset}" rendered="#{rolesController.allowReset}" process="@this" />
+						<p:commandButton value="Fill" action="#{rolesController.fill}" rendered="#{rolesController.allowFill}" process="@this" />
+						<p:commandButton value="Cancel Edit" action="#{rolesController.cancelEdit()}" rendered="#{rolesController.editMode}" process="@this" />
+					</div>
+				</f:facet>
+			</p:panelGrid>
+			<br/>
+			<p:dataTable value="#{rolesController.modelList}" var="model" rowKey="#{model.id}" paginator="true" paginatorAlwaysVisible="false"
+				paginatorPosition="bottom" selectionMode="single" filteredValue="#{rolesController.filterList}" selection="#{rolesController.model}" emptyMessage=""
+				rowIndexVar="row">
+				<p:ajax event="rowSelect" update="@form:model" />
+				<p:autoUpdate />
+				<f:facet name="header">Roless Data Table</f:facet>
+				<p:column headerText="#">#{row+1}</p:column>
+				<p:column headerText="#{msg.get('name')}" sortBy="#{model.name}" filterBy="#{model.name}" filterMatchMode="contains">
+					<h:outputText value="#{model.name==null?'-':model.name}" />
+				</p:column>
+			</p:dataTable>
+		</h:form>
+	</ui:define>
+</ui:composition>
+</html>

@@ -1,0 +1,97 @@
+2022-12-08 20:30:32,374 [main] INFO  c.j.d.d.JKDataAccessFactory - Init DataAccessFactory 
+2022-12-08 20:30:32,391 [main] INFO  c.j.d.d.JKDataSourceFactory - datasource (default) not found, create new one
+2022-12-08 20:30:32,394 [main] INFO  com.jk.core.config.JKConfig - Init.. 
+2022-12-08 20:30:32,428 [main] INFO  com.jk.core.util.JK - Build info file found (/build.properties)
+2022-12-08 20:30:32,430 [main] INFO  com.jk.core.config.JKConfig - Config file (/default.config.properties) found at (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-data/7.0.0-M3/jk-framework-data-7.0.0-M3.jar!/default.config.properties), loading it 
+2022-12-08 20:30:32,433 [main] INFO  com.jk.core.config.JKConfig - Config file (/config.properties) found at (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/config.properties), loading it 
+2022-12-08 20:30:32,441 [main] INFO  com.jk.core.config.JKConfig - Adding all environment variables 
+2022-12-08 20:30:32,550 [main] INFO  com.jk.core.config.JKConfig - App JKFramework-App config loading completed.  
+2022-12-08 20:30:32,560 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Load Pool config default properties from (/default.config.properties)
+2022-12-08 20:30:32,565 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Hibernate: start configurations 
+2022-12-08 20:30:32,656 [main] WARN  org.hibernate.dialect.H2Dialect - HHH000393: The 0.0.0 version of H2 implements temporary table creation such that it commits current transaction; multi-table, bulk hql/jpaql will not work properly
+2022-12-08 20:30:32,799 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-08 20:30:33,393 [main] INFO  org.hibernate.orm.beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2022-12-08 20:30:33,710 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:file:./h2db.data
+2022-12-08 20:30:33,711 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {v$session.program=JKFramework-App, password=****, autocommit=true, user=sa}
+2022-12-08 20:30:33,711 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: true
+2022-12-08 20:30:33,718 [main] WARN  o.h.orm.connections.pooling.c3p0 - HHH010001: Both hibernate-style property 'hibernate.c3p0.max_statements' and c3p0-style property 'hibernate.c3p0.maxStatements' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.max_statements' will be used and c3p0-style property 'hibernate.c3p0.maxStatements' will be ignored!
+2022-12-08 20:30:33,744 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2022-12-08 20:30:33,883 [main] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2022-12-08 20:30:33,905 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: <unknown>
+2022-12-08 20:30:33,938 [main] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@58d3960b [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@2b253294 [ acquireIncrement -> 1, acquireRetryAttempts -> 1, acquireRetryDelay -> 10000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 20000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> library, debugUnreturnedConnectionStackTraces -> true, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge10has1vd5g4mligrfy|dffa30b, idleConnectionTestPeriod -> 30, initialPoolSize -> 1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 1, maxStatements -> 50, maxStatementsPerConnection -> 100, minPoolSize -> 1, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@e9c95af1 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge10has1vd5g4mligrfy|11a7ba62, jdbcUrl -> jdbc:h2:file:./h2db.data, properties -> {password=******, v$session.program=JKFramework-App, autocommit=true, user=******} ], preferredTestQuery -> SELECT 1, privilegeSpawnedThreads -> true, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 3600, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge10has1vd5g4mligrfy|782168b7, numHelperThreads -> 10 ]
+2022-12-08 20:30:34,331 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-08 20:30:34,864 [main] INFO  o.h.c.b.TypeSafeActivator - Error calling `jakarta.validation.Validation#buildDefaultValidatorFactory`
+jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+	at jakarta.validation.Validation$GenericBootstrapImpl.configure(Validation.java:291) ~[jakarta.validation-api-3.0.2.jar:na]
+	at jakarta.validation.Validation.buildDefaultValidatorFactory(Validation.java:103) ~[jakarta.validation-api-3.0.2.jar:na]
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.getValidatorFactory(TypeSafeActivator.java:479) ~[hibernate-core-6.1.5.Final.jar:6.1.5.Final]
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.activate(TypeSafeActivator.java:82) ~[hibernate-core-6.1.5.Final.jar:6.1.5.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.hibernate.cfg.beanvalidation.BeanValidationIntegrator.integrate(BeanValidationIntegrator.java:137) ~[hibernate-core-6.1.5.Final.jar:6.1.5.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:285) ~[hibernate-core-6.1.5.Final.jar:6.1.5.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415) ~[hibernate-core-6.1.5.Final.jar:6.1.5.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:754) ~[hibernate-core-6.1.5.Final.jar:6.1.5.Final]
+	at com.jk.data.datasource.impl.JKHibernateDataSource.initHibernate(JKHibernateDataSource.java:146) ~[jk-framework-data-7.0.0-M3.jar:na]
+	at com.jk.data.datasource.impl.JKHibernateDataSource.init(JKHibernateDataSource.java:76) ~[jk-framework-data-7.0.0-M3.jar:na]
+	at com.jk.data.datasource.JKDataSourceFactory.createDataSource(JKDataSourceFactory.java:160) ~[jk-framework-data-7.0.0-M3.jar:na]
+	at com.jk.data.datasource.JKDataSourceFactory.getDataSource(JKDataSourceFactory.java:107) ~[jk-framework-data-7.0.0-M3.jar:na]
+	at com.jk.data.datasource.JKDataSourceFactory.getDefaultDataSource(JKDataSourceFactory.java:72) ~[jk-framework-data-7.0.0-M3.jar:na]
+	at com.jk.data.dataaccess.JKDataAccessFactory.init(JKDataAccessFactory.java:107) ~[jk-framework-data-7.0.0-M3.jar:na]
+	at com.jk.data.dataaccess.JKDataAccessFactory.getDefaultDataSource(JKDataAccessFactory.java:74) ~[jk-framework-data-7.0.0-M3.jar:na]
+	at com.jk.data.dataaccess.JKDataAccessFactory.getDataAccessService(JKDataAccessFactory.java:151) ~[jk-framework-data-7.0.0-M3.jar:na]
+	at com.app.App.main(App.java:16) ~[classes/:na]
+2022-12-08 20:30:35,108 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 20:30:35,124 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Hibernate: configured successfully 
+2022-12-08 20:35:17,879 [main] INFO  c.j.d.d.JKDataAccessFactory - Init DataAccessFactory 
+2022-12-08 20:35:17,886 [main] INFO  c.j.d.d.JKDataSourceFactory - datasource (default) not found, create new one
+2022-12-08 20:35:17,888 [main] INFO  com.jk.core.config.JKConfig - Init.. 
+2022-12-08 20:35:17,944 [main] INFO  com.jk.core.util.JK - Build info file found (/build.properties)
+2022-12-08 20:35:17,949 [main] INFO  com.jk.core.config.JKConfig - Config file (/default.config.properties) found at (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-data/7.0.0-M3/jk-framework-data-7.0.0-M3.jar!/default.config.properties), loading it 
+2022-12-08 20:35:17,955 [main] INFO  com.jk.core.config.JKConfig - Config file (/config.properties) found at (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/config.properties), loading it 
+2022-12-08 20:35:17,957 [main] INFO  com.jk.core.config.JKConfig - Adding all environment variables 
+2022-12-08 20:35:18,101 [main] INFO  com.jk.core.config.JKConfig - App JKFramework-App config loading completed.  
+2022-12-08 20:35:18,110 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Load Pool config default properties from (/default.config.properties)
+2022-12-08 20:35:18,115 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Hibernate: start configurations 
+2022-12-08 20:35:18,200 [main] WARN  org.hibernate.dialect.H2Dialect - HHH000393: The 0.0.0 version of H2 implements temporary table creation such that it commits current transaction; multi-table, bulk hql/jpaql will not work properly
+2022-12-08 20:35:18,308 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-08 20:35:18,934 [main] INFO  org.hibernate.orm.beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2022-12-08 20:35:19,278 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:file:./h2db.data
+2022-12-08 20:35:19,278 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {v$session.program=JKFramework-App, password=****, autocommit=true, user=sa}
+2022-12-08 20:35:19,279 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: true
+2022-12-08 20:35:19,286 [main] WARN  o.h.orm.connections.pooling.c3p0 - HHH010001: Both hibernate-style property 'hibernate.c3p0.max_statements' and c3p0-style property 'hibernate.c3p0.maxStatements' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.max_statements' will be used and c3p0-style property 'hibernate.c3p0.maxStatements' will be ignored!
+2022-12-08 20:35:19,311 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2022-12-08 20:35:19,438 [main] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2022-12-08 20:35:19,456 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: <unknown>
+2022-12-08 20:35:19,480 [main] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@98697664 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@dac73478 [ acquireIncrement -> 1, acquireRetryAttempts -> 1, acquireRetryDelay -> 10000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 20000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> library, debugUnreturnedConnectionStackTraces -> true, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge10has1vdbkgk1tj5z5x|4c98a6d5, idleConnectionTestPeriod -> 30, initialPoolSize -> 1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 1, maxStatements -> 50, maxStatementsPerConnection -> 100, minPoolSize -> 1, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@86e3981a [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge10has1vdbkgk1tj5z5x|30b2b76f, jdbcUrl -> jdbc:h2:file:./h2db.data, properties -> {password=******, v$session.program=JKFramework-App, autocommit=true, user=******} ], preferredTestQuery -> SELECT 1, privilegeSpawnedThreads -> true, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 3600, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge10has1vdbkgk1tj5z5x|281f23f2, numHelperThreads -> 10 ]
+2022-12-08 20:35:19,843 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-08 20:35:20,429 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2022-12-08 20:35:20,831 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 20:35:20,847 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Hibernate: configured successfully 
+2022-12-08 20:40:41,106 [main] INFO  c.j.d.d.JKDataAccessFactory - Init DataAccessFactory 
+2022-12-08 20:40:41,117 [main] INFO  c.j.d.d.JKDataSourceFactory - datasource (default) not found, create new one
+2022-12-08 20:40:41,123 [main] INFO  com.jk.core.config.JKConfig - Init.. 
+2022-12-08 20:40:41,180 [main] INFO  com.jk.core.util.JK - Build info file found (/build.properties)
+2022-12-08 20:40:41,181 [main] INFO  com.jk.core.config.JKConfig - Config file (/default.config.properties) found at (file:/D:/source/gitlab/jk-framework-7/jk-framework-data/target/classes/default.config.properties), loading it 
+2022-12-08 20:40:41,185 [main] INFO  com.jk.core.config.JKConfig - Config file (/config.properties) found at (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/config.properties), loading it 
+2022-12-08 20:40:41,187 [main] INFO  com.jk.core.config.JKConfig - Adding all environment variables 
+2022-12-08 20:40:41,363 [main] INFO  com.jk.core.config.JKConfig - App JKFramework-App config loading completed.  
+2022-12-08 20:40:41,374 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Load Pool config default properties from (/default.config.properties)
+2022-12-08 20:40:41,384 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Hibernate: start configurations 
+2022-12-08 20:40:41,476 [main] WARN  org.hibernate.dialect.H2Dialect - HHH000393: The 0.0.0 version of H2 implements temporary table creation such that it commits current transaction; multi-table, bulk hql/jpaql will not work properly
+2022-12-08 20:40:41,584 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.5.Final
+2022-12-08 20:40:42,104 [main] INFO  org.hibernate.orm.beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2022-12-08 20:40:42,500 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:file:./h2db.data
+2022-12-08 20:40:42,501 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH10001001: Connection properties: {v$session.program=JKFramework-App, password=****, autocommit=true, user=sa}
+2022-12-08 20:40:42,501 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH10001003: Autocommit mode: true
+2022-12-08 20:40:42,510 [main] WARN  o.h.orm.connections.pooling.c3p0 - HHH010001: Both hibernate-style property 'hibernate.c3p0.max_statements' and c3p0-style property 'hibernate.c3p0.maxStatements' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.max_statements' will be used and c3p0-style property 'hibernate.c3p0.maxStatements' will be ignored!
+2022-12-08 20:40:42,531 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2022-12-08 20:40:42,666 [main] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2022-12-08 20:40:42,690 [main] INFO  o.h.orm.connections.pooling.c3p0 - HHH10001007: JDBC isolation level: <unknown>
+2022-12-08 20:40:42,723 [main] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@31352ec4 [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@d22016e6 [ acquireIncrement -> 1, acquireRetryAttempts -> 1, acquireRetryDelay -> 10000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 20000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> library, debugUnreturnedConnectionStackTraces -> true, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge10has1vdihv31siohv4|72458efc, idleConnectionTestPeriod -> 30, initialPoolSize -> 1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 1, maxStatements -> 50, maxStatementsPerConnection -> 100, minPoolSize -> 1, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@bee18a02 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge10has1vdihv31siohv4|6999cd39, jdbcUrl -> jdbc:h2:file:./h2db.data, properties -> {password=******, v$session.program=JKFramework-App, autocommit=true, user=******} ], preferredTestQuery -> SELECT 1, privilegeSpawnedThreads -> true, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 3600, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge10has1vdihv31siohv4|5486887b, numHelperThreads -> 10 ]
+2022-12-08 20:40:43,071 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-08 20:40:43,682 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2022-12-08 20:40:44,232 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-08 20:40:44,257 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Hibernate: configured successfully 

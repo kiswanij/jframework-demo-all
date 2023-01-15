@@ -1,0 +1,4 @@
+2022-11-24 11:32:54,083 [main] TRACE  com.app.logger.JKLoggerExample - Print trace message with value Dummy value
+2022-11-24 11:32:54,092 [main] DEBUG  com.app.logger.JKLoggerExample - Print debug message with value Dummy value
+2022-11-24 11:32:54,093 [main] INFO  com.app.logger.JKLoggerExample - Print info message with value Dummy value
+2022-11-24 11:32:54,094 [main] ERROR  com.app.logger.JKLoggerExample - Print error message with value Dummy value

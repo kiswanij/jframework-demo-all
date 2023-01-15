@@ -1,0 +1,533 @@
+2022-11-22 12:20:50,210 [main] INFO  c.j.d.d.JKDataAccessFactory - Init DataAccessFactory 
+2022-11-22 12:20:50,224 [main] DEBUG  c.j.d.d.JKDataSourceFactory - getDataSource for prefix(default)
+2022-11-22 12:20:50,228 [main] INFO  c.j.d.d.JKDataSourceFactory - datasource (default) not found, create new one
+2022-11-22 12:20:50,229 [main] INFO  com.jk.core.config.JKConfig - Init.. 
+2022-11-22 12:20:50,242 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(/jk-banner.txt)
+2022-11-22 12:20:50,243 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/jk-banner.txt)
+2022-11-22 12:20:50,244 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-core/6.0.0/jk-framework-core-6.0.0.jar!/jk-banner.txt)
+2022-11-22 12:20:50,245 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-core/6.0.0/jk-framework-core-6.0.0.jar!/jk-banner.txt)
+2022-11-22 12:20:50,273 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(smartcloud.license)
+2022-11-22 12:20:50,275 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:20:50,276 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:20:50,277 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:20:50,278 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:20:50,278 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:20:50,278 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(smartcloud.license.default)
+2022-11-22 12:20:50,278 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(smartcloud.license.default)
+2022-11-22 12:20:50,279 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:20:50,280 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-core/6.0.0/jk-framework-core-6.0.0.jar!/smartcloud.license.default)
+2022-11-22 12:20:50,280 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-core/6.0.0/jk-framework-core-6.0.0.jar!/smartcloud.license.default)
+2022-11-22 12:20:50,286 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/build.properties)
+2022-11-22 12:20:50,287 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:20:50,289 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:20:50,294 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:20:50,295 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:20:50,296 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:20:50,297 [main] DEBUG  com.jk.core.util.JK - /build.properties file not found
+2022-11-22 12:20:50,298 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (/default.config.properties)
+2022-11-22 12:20:50,299 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/default.config.properties)
+2022-11-22 12:20:50,299 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-data/6.0.0/jk-framework-data-6.0.0.jar!/default.config.properties)
+2022-11-22 12:20:50,303 [main] INFO  com.jk.core.config.JKConfig - Config file (/default.config.properties) found at (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-data/6.0.0/jk-framework-data-6.0.0.jar!/default.config.properties), loading it 
+2022-11-22 12:20:50,304 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(/default.config.properties)
+2022-11-22 12:20:50,304 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/default.config.properties)
+2022-11-22 12:20:50,306 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-data/6.0.0/jk-framework-data-6.0.0.jar!/default.config.properties)
+2022-11-22 12:20:50,306 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-data/6.0.0/jk-framework-data-6.0.0.jar!/default.config.properties)
+2022-11-22 12:20:50,311 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (/system.config.properties)
+2022-11-22 12:20:50,311 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/system.config.properties)
+2022-11-22 12:20:50,313 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:20:50,314 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:20:50,316 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:20:50,316 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:20:50,318 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:20:50,319 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (/app.config.properties)
+2022-11-22 12:20:50,320 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/app.config.properties)
+2022-11-22 12:20:50,321 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:20:50,324 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:20:50,325 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:20:50,326 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:20:50,326 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:20:50,326 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (/config.properties)
+2022-11-22 12:20:50,327 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/config.properties)
+2022-11-22 12:20:50,328 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/config.properties)
+2022-11-22 12:20:50,329 [main] INFO  com.jk.core.config.JKConfig - Config file (/config.properties) found at (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/config.properties), loading it 
+2022-11-22 12:20:50,329 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(/config.properties)
+2022-11-22 12:20:50,329 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/config.properties)
+2022-11-22 12:20:50,330 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/config.properties)
+2022-11-22 12:20:50,330 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/config.properties)
+2022-11-22 12:20:50,332 [main] INFO  com.jk.core.config.JKConfig - Adding all environment variables 
+2022-11-22 12:20:50,339 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(pre.config.properties)
+2022-11-22 12:20:50,340 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:20:50,341 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:20:50,342 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:20:50,342 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:20:50,343 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:20:50,343 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (/test.config.properties)
+2022-11-22 12:20:50,343 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/test.config.properties)
+2022-11-22 12:20:50,345 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:20:50,347 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:20:50,348 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:20:50,351 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:20:50,352 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:20:50,353 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (smartcloud.config)
+2022-11-22 12:20:50,354 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(smartcloud.config)
+2022-11-22 12:20:50,356 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:20:50,358 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:20:50,360 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:20:50,362 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:20:50,363 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:20:50,543 [main] INFO  com.jk.core.config.JKConfig - App SmartCloud-App config loading completed.  
+2022-11-22 12:20:50,571 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Load Pool config default properties from (/default.config.properties)
+2022-11-22 12:20:50,571 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(/default.config.properties)
+2022-11-22 12:20:50,572 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/default.config.properties)
+2022-11-22 12:20:50,573 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-data/6.0.0/jk-framework-data-6.0.0.jar!/default.config.properties)
+2022-11-22 12:20:50,574 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (jar:file:/C:/Users/Jalal%20Kiswani/.m2/repository/com/jalalkiswani/jk-framework-data/6.0.0/jk-framework-data-6.0.0.jar!/default.config.properties)
+2022-11-22 12:20:50,584 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.format_sql) with value(true)
+2022-11-22 12:20:50,584 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.id.new_generator_mappings) with value(false)
+2022-11-22 12:20:50,584 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.idleConnectionTestPeriod) with value(30)
+2022-11-22 12:20:50,585 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.dialect) with value(org.hibernate.dialect.H2Dialect)
+2022-11-22 12:20:50,585 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.testConnectionOnCheckout) with value(true)
+2022-11-22 12:20:50,587 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.debugUnreturnedConnectionStackTraces) with value(true)
+2022-11-22 12:20:50,587 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.min_size) with value(1)
+2022-11-22 12:20:50,588 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.autocommit) with value(true)
+2022-11-22 12:20:50,588 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.acquire_increment) with value(1)
+2022-11-22 12:20:50,589 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.max_statements) with value(50)
+2022-11-22 12:20:50,590 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.privilegeSpawnedThreads) with value(true)
+2022-11-22 12:20:50,591 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.v$session.program) with value(SmartCloud-App)
+2022-11-22 12:20:50,592 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.timeout) with value(3)
+2022-11-22 12:20:50,592 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.maxStatements) with value(1000)
+2022-11-22 12:20:50,592 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.globally_quoted_identifiers) with value(true)
+2022-11-22 12:20:50,594 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.hbm2ddl.auto) with value(update)
+2022-11-22 12:20:50,594 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.max_size) with value(1)
+2022-11-22 12:20:50,595 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.maxStatementsPerConnection) with value(100)
+2022-11-22 12:20:50,595 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.username) with value(sa)
+2022-11-22 12:20:50,595 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.numHelperThreads) with value(10)
+2022-11-22 12:20:50,596 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.url) with value(jdbc:h2:file:./h2db.data)
+2022-11-22 12:20:50,596 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.show_sql) with value(false)
+2022-11-22 12:20:50,596 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.acquireRetryDelay) with value(10000)
+2022-11-22 12:20:50,597 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.unreturnedConnectionTimeout) with value(3600)
+2022-11-22 12:20:50,599 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.driver_class) with value(org.h2.Driver)
+2022-11-22 12:20:50,600 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.password) with value()
+2022-11-22 12:20:50,601 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.acquireRetryAttempts) with value(1)
+2022-11-22 12:20:50,602 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.checkoutTimeout) with value(20000)
+2022-11-22 12:20:50,603 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.contextClassLoaderSource) with value(library)
+2022-11-22 12:20:50,604 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Hibernate: start configurations 
+2022-11-22 12:20:50,746 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-22 12:20:50,904 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - initHibernate() 
+2022-11-22 12:20:50,904 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createHibernateConfig() 
+2022-11-22 12:20:51,096 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-11-22 12:20:51,916 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Naming Stratgey Impl(com.jk.data.vendors.h2.H2PhysicalNamingStrategy)
+2022-11-22 12:20:51,937 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - scanJpaEntities() 
+2022-11-22 12:20:52,141 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /scanJpaEntities() 
+2022-11-22 12:20:52,142 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createHibernateConfig() 
+2022-11-22 12:20:52,260 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-22 12:20:52,652 [main] INFO  o.h.c.i.C3P0ConnectionProvider - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:file:./h2db.data
+2022-11-22 12:20:52,653 [main] INFO  o.h.c.i.C3P0ConnectionProvider - HHH10001001: Connection properties: {v$session.program=SmartCloud-App, password=****, autocommit=true, user=sa}
+2022-11-22 12:20:52,653 [main] INFO  o.h.c.i.C3P0ConnectionProvider - HHH10001003: Autocommit mode: true
+2022-11-22 12:20:52,661 [main] WARN  o.h.c.i.C3P0ConnectionProvider - HHH010001: Both hibernate-style property 'hibernate.c3p0.max_statements' and c3p0-style property 'hibernate.c3p0.maxStatements' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.max_statements' will be used and c3p0-style property 'hibernate.c3p0.maxStatements' will be ignored!
+2022-11-22 12:20:52,721 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2022-11-22 12:20:52,888 [main] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2022-11-22 12:20:52,919 [main] INFO  o.h.c.i.C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+2022-11-22 12:20:52,966 [main] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@c0a27d4d [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@ab619fe5 [ acquireIncrement -> 1, acquireRetryAttempts -> 1, acquireRetryDelay -> 10000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 20000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> library, debugUnreturnedConnectionStackTraces -> true, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge2kmas180m2x31sihkb3|40147317, idleConnectionTestPeriod -> 30, initialPoolSize -> 1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 1, maxStatements -> 50, maxStatementsPerConnection -> 100, minPoolSize -> 1, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@4f32348 [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge2kmas180m2x31sihkb3|1929425f, jdbcUrl -> jdbc:h2:file:./h2db.data, properties -> {password=******, v$session.program=SmartCloud-App, autocommit=true, user=******} ], preferredTestQuery -> SELECT 1, privilegeSpawnedThreads -> true, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 3600, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge2kmas180m2x31sihkb3|7882c44a, numHelperThreads -> 10 ]
+2022-11-22 12:20:53,537 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-22 12:20:54,336 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.1.Final
+2022-11-22 12:20:54,799 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-22 12:20:54,834 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /initHibernate() 
+2022-11-22 12:20:54,834 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Hibernate: configured successfully 
+2022-11-22 12:20:54,853 [main] DEBUG  com.jk.core.cache.JKCacheFactory - init cacheManager 
+2022-11-22 12:20:54,863 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - isTableExists(ACCOUNTS)
+2022-11-22 12:20:54,863 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - describeTable(ACCOUNTS)
+2022-11-22 12:20:54,866 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - getList 
+2022-11-22 12:20:54,867 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - get connection with query flag : true 
+2022-11-22 12:20:54,867 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - return query connection 
+2022-11-22 12:20:54,868 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getQueryConnection() 
+2022-11-22 12:20:54,868 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:20:54,868 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:20:54,869 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:20:54,870 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:20:55,067 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:20:55,073 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:20:55,080 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - 
+ 	show columns from "ACCOUNTS" , with Params () 
+2022-11-22 12:20:55,098 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@31a3f4de [wrapping: prep4: show columns from "ACCOUNTS"] 
+2022-11-22 12:20:55,099 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:20:55,099 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - closeConnection(commit=true)
+2022-11-22 12:20:55,100 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:20:55,101 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:20:55,101 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /closeConnection(commit=true)
+2022-11-22 12:20:55,101 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - beginTransaction() 
+2022-11-22 12:20:55,102 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:20:55,102 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:20:55,103 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:20:55,103 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:20:55,103 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:20:55,104 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:20:55,104 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - end of begin Transaction 
+2022-11-22 12:20:55,104 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - runScript(/h2-script.sql)
+2022-11-22 12:20:55,104 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - get connection with query flag : false 
+2022-11-22 12:20:55,105 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - tanaction is open, returnining transactio connection 
+2022-11-22 12:20:55,105 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(/h2-script.sql)
+2022-11-22 12:20:55,105 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/h2-script.sql)
+2022-11-22 12:20:55,106 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/h2-script.sql)
+2022-11-22 12:20:55,106 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/h2-script.sql)
+2022-11-22 12:20:55,122 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - execute(INSERT INTO ACCOUNTS VALUES(?,?,?),5 | Jalal | 100)
+2022-11-22 12:20:55,122 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - get connection with query flag : false 
+2022-11-22 12:20:55,122 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - tanaction is open, returnining transactio connection 
+2022-11-22 12:20:55,123 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - 
+ 	INSERT INTO ACCOUNTS VALUES(?,?,?) , with Params (5 | Jalal | 100) 
+2022-11-22 12:20:55,127 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:20:55,128 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - transaction is open, closing connection will be ignored 
+2022-11-22 12:20:55,128 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - execute(INSERT INTO ACCOUNTS VALUES(?,?,?),6 | Ata | 200)
+2022-11-22 12:20:55,128 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - get connection with query flag : false 
+2022-11-22 12:20:55,129 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - tanaction is open, returnining transactio connection 
+2022-11-22 12:20:55,129 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - 
+ 	INSERT INTO ACCOUNTS VALUES(?,?,?) , with Params (6 | Ata | 200) 
+2022-11-22 12:20:55,130 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:20:55,131 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - transaction is open, closing connection will be ignored 
+2022-11-22 12:20:55,131 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - execute(INSERT INTO ACCOUNTS VALUES(?,?,?),7 | Essa | 300)
+2022-11-22 12:20:55,131 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - get connection with query flag : false 
+2022-11-22 12:20:55,131 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - tanaction is open, returnining transactio connection 
+2022-11-22 12:20:55,132 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - 
+ 	INSERT INTO ACCOUNTS VALUES(?,?,?) , with Params (7 | Essa | 300) 
+2022-11-22 12:20:55,133 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:20:55,135 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - transaction is open, closing connection will be ignored 
+2022-11-22 12:20:55,136 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - execute(INSERT INTO ACCOUNTS VALUES(?,?,?),8 | Jamal | 400)
+2022-11-22 12:20:55,136 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - get connection with query flag : false 
+2022-11-22 12:20:55,136 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - tanaction is open, returnining transactio connection 
+2022-11-22 12:20:55,137 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - 
+ 	INSERT INTO ACCOUNTS VALUES(?,?,?) , with Params (8 | Jamal | 400) 
+2022-11-22 12:20:55,138 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:20:55,139 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - transaction is open, closing connection will be ignored 
+2022-11-22 12:20:55,139 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - closeTransaction(true)
+2022-11-22 12:20:55,140 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:20:55,141 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:20:55,141 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - transaction closed 
+2022-11-22 12:20:55,142 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - executeQueryAsString  
+ 	SELECT BALANCE FROM ACCOUNTS WHERE ID=? , with Params (5) 
+2022-11-22 12:20:55,142 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - executeQueryAsString  
+ 	SELECT BALANCE FROM ACCOUNTS WHERE ID=? , with Params (5) 
+2022-11-22 12:20:55,143 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - executeQueryAsCachedRowSet (SELECT BALANCE FROM ACCOUNTS WHERE ID=?) with Params([5])
+2022-11-22 12:20:55,146 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - get connection with query flag : true 
+2022-11-22 12:20:55,147 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - return query connection 
+2022-11-22 12:20:55,147 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getQueryConnection() 
+2022-11-22 12:20:55,148 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:20:55,148 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:20:55,149 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:20:55,150 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:20:55,151 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:20:55,152 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:20:55,169 [main] DEBUG  com.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:20:55,171 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - closeConnection(commit=true)
+2022-11-22 12:20:55,172 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:20:55,174 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:20:55,174 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /closeConnection(commit=true)
+2022-11-22 12:21:48,441 [main] INFO  c.j.d.d.JKDataAccessFactory - Init DataAccessFactory 
+2022-11-22 12:21:48,453 [main] DEBUG  c.j.d.d.JKDataSourceFactory - getDataSource for prefix(default)
+2022-11-22 12:21:48,455 [main] INFO  c.j.d.d.JKDataSourceFactory - datasource (default) not found, create new one
+2022-11-22 12:21:48,456 [main] INFO  com.jk.core.config.JKConfig - Init.. 
+2022-11-22 12:21:48,469 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(/jk-banner.txt)
+2022-11-22 12:21:48,469 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/jk-banner.txt)
+2022-11-22 12:21:48,472 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (file:/D:/source/gitlab/jk-framework-7/jk-framework-core/target/classes/jk-banner.txt)
+2022-11-22 12:21:48,473 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (file:/D:/source/gitlab/jk-framework-7/jk-framework-core/target/classes/jk-banner.txt)
+2022-11-22 12:21:48,492 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(smartcloud.license)
+2022-11-22 12:21:48,493 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:21:48,495 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:21:48,495 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:21:48,495 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:21:48,496 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:21:48,497 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(smartcloud.license.default)
+2022-11-22 12:21:48,497 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(smartcloud.license.default)
+2022-11-22 12:21:48,499 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:21:48,499 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (file:/D:/source/gitlab/jk-framework-7/jk-framework-core/target/classes/smartcloud.license.default)
+2022-11-22 12:21:48,499 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (file:/D:/source/gitlab/jk-framework-7/jk-framework-core/target/classes/smartcloud.license.default)
+2022-11-22 12:21:48,506 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/build.properties)
+2022-11-22 12:21:48,507 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:21:48,508 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:21:48,508 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:21:48,509 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:21:48,509 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:21:48,509 [main] DEBUG  com.jk.core.util.JK - /build.properties file not found
+2022-11-22 12:21:48,510 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (/default.config.properties)
+2022-11-22 12:21:48,511 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/default.config.properties)
+2022-11-22 12:21:48,512 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (file:/D:/source/gitlab/jk-framework-7/jk-framework-data/target/classes/default.config.properties)
+2022-11-22 12:21:48,512 [main] INFO  com.jk.core.config.JKConfig - Config file (/default.config.properties) found at (file:/D:/source/gitlab/jk-framework-7/jk-framework-data/target/classes/default.config.properties), loading it 
+2022-11-22 12:21:48,512 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(/default.config.properties)
+2022-11-22 12:21:48,513 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/default.config.properties)
+2022-11-22 12:21:48,513 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (file:/D:/source/gitlab/jk-framework-7/jk-framework-data/target/classes/default.config.properties)
+2022-11-22 12:21:48,513 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (file:/D:/source/gitlab/jk-framework-7/jk-framework-data/target/classes/default.config.properties)
+2022-11-22 12:21:48,516 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (/system.config.properties)
+2022-11-22 12:21:48,517 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/system.config.properties)
+2022-11-22 12:21:48,518 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:21:48,518 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:21:48,518 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:21:48,518 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:21:48,519 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:21:48,519 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (/app.config.properties)
+2022-11-22 12:21:48,519 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/app.config.properties)
+2022-11-22 12:21:48,520 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:21:48,521 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:21:48,521 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:21:48,523 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:21:48,523 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:21:48,524 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (/config.properties)
+2022-11-22 12:21:48,524 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/config.properties)
+2022-11-22 12:21:48,525 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/config.properties)
+2022-11-22 12:21:48,526 [main] INFO  com.jk.core.config.JKConfig - Config file (/config.properties) found at (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/config.properties), loading it 
+2022-11-22 12:21:48,527 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(/config.properties)
+2022-11-22 12:21:48,527 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/config.properties)
+2022-11-22 12:21:48,528 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/config.properties)
+2022-11-22 12:21:48,529 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/config.properties)
+2022-11-22 12:21:48,530 [main] INFO  com.jk.core.config.JKConfig - Adding all environment variables 
+2022-11-22 12:21:48,535 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(pre.config.properties)
+2022-11-22 12:21:48,536 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:21:48,537 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:21:48,538 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:21:48,539 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:21:48,539 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:21:48,540 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (/test.config.properties)
+2022-11-22 12:21:48,541 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/test.config.properties)
+2022-11-22 12:21:48,542 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:21:48,542 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:21:48,544 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:21:48,544 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:21:48,544 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:21:48,544 [main] DEBUG  com.jk.core.config.JKConfig - Looking for Config file (smartcloud.config)
+2022-11-22 12:21:48,544 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(smartcloud.config)
+2022-11-22 12:21:48,545 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using getClass().getResource() 
+2022-11-22 12:21:48,546 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using Thread.currentThread().getContextClassLoader().getResource(fileName) 
+2022-11-22 12:21:48,546 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using ClassLoader.getSystemResource 
+2022-11-22 12:21:48,547 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - not found using new File(fileName) 
+2022-11-22 12:21:48,547 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (null)
+2022-11-22 12:21:48,666 [main] INFO  com.jk.core.config.JKConfig - App SmartCloud-App config loading completed.  
+2022-11-22 12:21:48,696 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Load Pool config default properties from (/default.config.properties)
+2022-11-22 12:21:48,697 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(/default.config.properties)
+2022-11-22 12:21:48,697 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/default.config.properties)
+2022-11-22 12:21:48,698 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (file:/D:/source/gitlab/jk-framework-7/jk-framework-data/target/classes/default.config.properties)
+2022-11-22 12:21:48,698 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (file:/D:/source/gitlab/jk-framework-7/jk-framework-data/target/classes/default.config.properties)
+2022-11-22 12:21:48,704 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.format_sql) with value(true)
+2022-11-22 12:21:48,705 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.id.new_generator_mappings) with value(false)
+2022-11-22 12:21:48,706 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.idleConnectionTestPeriod) with value(30)
+2022-11-22 12:21:48,706 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.dialect) with value(org.hibernate.dialect.H2Dialect)
+2022-11-22 12:21:48,706 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.testConnectionOnCheckout) with value(true)
+2022-11-22 12:21:48,707 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.debugUnreturnedConnectionStackTraces) with value(true)
+2022-11-22 12:21:48,707 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.min_size) with value(1)
+2022-11-22 12:21:48,707 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.autocommit) with value(true)
+2022-11-22 12:21:48,707 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.acquire_increment) with value(1)
+2022-11-22 12:21:48,707 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.max_statements) with value(50)
+2022-11-22 12:21:48,708 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.privilegeSpawnedThreads) with value(true)
+2022-11-22 12:21:48,708 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.v$session.program) with value(SmartCloud-App)
+2022-11-22 12:21:48,708 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.timeout) with value(3)
+2022-11-22 12:21:48,709 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.maxStatements) with value(1000)
+2022-11-22 12:21:48,709 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.globally_quoted_identifiers) with value(true)
+2022-11-22 12:21:48,709 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.hbm2ddl.auto) with value(update)
+2022-11-22 12:21:48,710 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.max_size) with value(1)
+2022-11-22 12:21:48,710 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.maxStatementsPerConnection) with value(100)
+2022-11-22 12:21:48,711 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.username) with value(sa)
+2022-11-22 12:21:48,711 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.numHelperThreads) with value(10)
+2022-11-22 12:21:48,712 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.url) with value(jdbc:h2:file:./h2db.data)
+2022-11-22 12:21:48,712 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.show_sql) with value(false)
+2022-11-22 12:21:48,713 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.acquireRetryDelay) with value(10000)
+2022-11-22 12:21:48,714 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.unreturnedConnectionTimeout) with value(3600)
+2022-11-22 12:21:48,715 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.driver_class) with value(org.h2.Driver)
+2022-11-22 12:21:48,715 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.connection.password) with value()
+2022-11-22 12:21:48,716 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.acquireRetryAttempts) with value(1)
+2022-11-22 12:21:48,716 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.checkoutTimeout) with value(20000)
+2022-11-22 12:21:48,716 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Processing Hibernate key (hibernate.c3p0.contextClassLoaderSource) with value(library)
+2022-11-22 12:21:48,716 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Hibernate: start configurations 
+2022-11-22 12:21:48,828 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-22 12:21:48,958 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - initHibernate() 
+2022-11-22 12:21:48,958 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createHibernateConfig() 
+2022-11-22 12:21:49,047 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-11-22 12:21:49,454 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Naming Stratgey Impl(com.jk.data.vendors.h2.H2PhysicalNamingStrategy)
+2022-11-22 12:21:49,479 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - scanJpaEntities() 
+2022-11-22 12:21:49,610 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /scanJpaEntities() 
+2022-11-22 12:21:49,610 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createHibernateConfig() 
+2022-11-22 12:21:49,690 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-22 12:21:49,905 [main] INFO  o.h.c.i.C3P0ConnectionProvider - HHH010002: C3P0 using driver: org.h2.Driver at URL: jdbc:h2:file:./h2db.data
+2022-11-22 12:21:49,907 [main] INFO  o.h.c.i.C3P0ConnectionProvider - HHH10001001: Connection properties: {v$session.program=SmartCloud-App, password=****, autocommit=true, user=sa}
+2022-11-22 12:21:49,907 [main] INFO  o.h.c.i.C3P0ConnectionProvider - HHH10001003: Autocommit mode: true
+2022-11-22 12:21:49,913 [main] WARN  o.h.c.i.C3P0ConnectionProvider - HHH010001: Both hibernate-style property 'hibernate.c3p0.max_statements' and c3p0-style property 'hibernate.c3p0.maxStatements' have been set in Hibernate properties.  Hibernate-style property 'hibernate.c3p0.max_statements' will be used and c3p0-style property 'hibernate.c3p0.maxStatements' will be ignored!
+2022-11-22 12:21:49,941 [MLog-Init-Reporter] INFO  com.mchange.v2.log.MLog - MLog clients using slf4j logging.
+2022-11-22 12:21:50,083 [main] INFO  com.mchange.v2.c3p0.C3P0Registry - Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+2022-11-22 12:21:50,101 [main] INFO  o.h.c.i.C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+2022-11-22 12:21:50,133 [main] INFO  c.m.v.c.i.AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@1517cb3d [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@e2bad9a7 [ acquireIncrement -> 1, acquireRetryAttempts -> 1, acquireRetryDelay -> 10000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 20000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> library, debugUnreturnedConnectionStackTraces -> true, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, identityToken -> 1hge2kmas180nb2vau5ela|3044e9c7, idleConnectionTestPeriod -> 30, initialPoolSize -> 1, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 3, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 1, maxStatements -> 50, maxStatementsPerConnection -> 100, minPoolSize -> 1, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@8850029b [ description -> null, driverClass -> null, factoryClassLocation -> null, forceUseNamedDriverClass -> false, identityToken -> 1hge2kmas180nb2vau5ela|72be135f, jdbcUrl -> jdbc:h2:file:./h2db.data, properties -> {password=******, v$session.program=SmartCloud-App, autocommit=true, user=******} ], preferredTestQuery -> SELECT 1, privilegeSpawnedThreads -> true, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 3600, usesTraditionalReflectiveProxies -> false; userOverrides: {} ], dataSourceName -> null, extensions -> {}, factoryClassLocation -> null, identityToken -> 1hge2kmas180nb2vau5ela|43b0ade, numHelperThreads -> 10 ]
+2022-11-22 12:21:50,477 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-11-22 12:21:50,807 [main] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.1.Final
+2022-11-22 12:21:51,028 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-22 12:21:51,052 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /initHibernate() 
+2022-11-22 12:21:51,052 [main] INFO  c.j.d.d.impl.JKHibernateDataSource - Hibernate: configured successfully 
+2022-11-22 12:21:51,086 [main] DEBUG  com.jk.core.cache.JKCacheFactory - init cacheManager 
+2022-11-22 12:21:51,089 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - isTableExists(ACCOUNTS)
+2022-11-22 12:21:51,089 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - describeTable(ACCOUNTS)
+2022-11-22 12:21:51,092 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - getList 
+2022-11-22 12:21:51,093 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - get connection with query flag : true 
+2022-11-22 12:21:51,094 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - return query connection 
+2022-11-22 12:21:51,095 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getQueryConnection() 
+2022-11-22 12:21:51,095 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:21:51,096 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:21:51,096 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:21:51,097 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:21:51,216 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:21:51,217 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:21:51,221 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - 
+ 	show columns from "ACCOUNTS" , with Params () 
+2022-11-22 12:21:51,236 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@4b200971 [wrapping: prep4: show columns from "ACCOUNTS"] 
+2022-11-22 12:21:51,237 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:21:51,237 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - closeConnection(commit=true)
+2022-11-22 12:21:51,237 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:21:51,238 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:21:51,238 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /closeConnection(commit=true)
+2022-11-22 12:21:51,239 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - executeQueryAsString  
+ 	SELECT BALANCE FROM ACCOUNTS WHERE ID=? , with Params (5) 
+2022-11-22 12:21:51,239 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - executeQueryAsString  
+ 	SELECT BALANCE FROM ACCOUNTS WHERE ID=? , with Params (5) 
+2022-11-22 12:21:51,240 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - executeQueryAsCachedRowSet (SELECT BALANCE FROM ACCOUNTS WHERE ID=?) with Params([5])
+2022-11-22 12:21:51,240 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - get connection with query flag : true 
+2022-11-22 12:21:51,241 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - return query connection 
+2022-11-22 12:21:51,241 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getQueryConnection() 
+2022-11-22 12:21:51,241 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:21:51,241 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:21:51,241 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:21:51,241 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:21:51,242 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:21:51,243 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:21:51,298 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:21:51,298 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - closeConnection(commit=true)
+2022-11-22 12:21:51,298 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:21:51,299 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:21:51,299 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /closeConnection(commit=true)
+2022-11-22 12:21:51,308 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - executeQueryAsArray  
+ 	SELECT * FROM ACCOUNTS WHERE ID=? , with Params (5) 
+2022-11-22 12:21:51,308 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - executeQueryAsCachedRowSet (SELECT * FROM ACCOUNTS WHERE ID=?) with Params([5])
+2022-11-22 12:21:51,309 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - get connection with query flag : true 
+2022-11-22 12:21:51,309 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - return query connection 
+2022-11-22 12:21:51,310 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getQueryConnection() 
+2022-11-22 12:21:51,310 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:21:51,310 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:21:51,311 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:21:51,311 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:21:51,312 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:21:51,313 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:21:51,316 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:21:51,317 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - closeConnection(commit=true)
+2022-11-22 12:21:51,317 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:21:51,317 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:21:51,318 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /closeConnection(commit=true)
+2022-11-22 12:21:51,319 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - executeQueryAsList  
+ 	SELECT * FROM ACCOUNTS WHERE BALANCE>? , with Params (100) 
+2022-11-22 12:21:51,319 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - executeQueryAsCachedRowSet (SELECT * FROM ACCOUNTS WHERE BALANCE>?) with Params([100])
+2022-11-22 12:21:51,326 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - get connection with query flag : true 
+2022-11-22 12:21:51,327 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - return query connection 
+2022-11-22 12:21:51,327 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getQueryConnection() 
+2022-11-22 12:21:51,328 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:21:51,328 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:21:51,328 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:21:51,329 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:21:51,330 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:21:51,334 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:21:51,338 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:21:51,339 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - closeConnection(commit=true)
+2022-11-22 12:21:51,343 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:21:51,345 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:21:51,345 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /closeConnection(commit=true)
+2022-11-22 12:21:51,351 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - executeQueryAsList  
+ 	all_accounts.sql , with Params (100) 
+2022-11-22 12:21:51,351 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - executeQueryAsCachedRowSet (all_accounts.sql) with Params([100])
+2022-11-22 12:21:51,351 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - get connection with query flag : true 
+2022-11-22 12:21:51,351 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - return query connection 
+2022-11-22 12:21:51,351 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getQueryConnection() 
+2022-11-22 12:21:51,352 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:21:51,352 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:21:51,352 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:21:51,352 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:21:51,354 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:21:51,354 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:21:51,354 [main] DEBUG  c.j.c.c.s.JKDefaultCacheManager - @get (/jk/sql/all_accounts.sql) for class (java.lang.String) 
+2022-11-22 12:21:51,354 [main] DEBUG  c.j.c.c.s.JKDefaultCacheManager - @getCachableMap for class  java.lang.String 
+2022-11-22 12:21:51,354 [main] DEBUG  c.j.c.c.s.JKDefaultCacheManager - Cachable map not found , create one 
+2022-11-22 12:21:51,354 [main] DEBUG  com.jk.core.util.JKIOUtil - Loading sql file:  /jk/sql/all_accounts.sql 
+2022-11-22 12:21:51,355 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceAsStream(/jk/sql/all_accounts.sql)
+2022-11-22 12:21:51,356 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - getResourceUrl(/jk/sql/all_accounts.sql)
+2022-11-22 12:21:51,356 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - Final result, resource value (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/jk/sql/all_accounts.sql)
+2022-11-22 12:21:51,356 [main] DEBUG  c.j.c.r.JKDefaultResourceLoader - found at URL (file:/D:/source/github/jk-framework-data-jdbc-example/target/classes/jk/sql/all_accounts.sql)
+2022-11-22 12:21:51,357 [main] DEBUG  c.j.c.c.s.JKDefaultCacheManager - @cache 
+2022-11-22 12:21:51,357 [main] DEBUG  c.j.c.c.s.JKDefaultCacheManager - @cache v2  
+2022-11-22 12:21:51,359 [main] DEBUG  c.j.c.c.s.JKDefaultCacheManager - logging key : /jk/sql/all_accounts.sql  with object :  SELECT * FROM ACCOUNTS WHERE BALANCE>?  with Class :  class java.lang.String 
+2022-11-22 12:21:51,359 [main] DEBUG  c.j.c.c.s.JKDefaultCacheManager - @getCachableMap for class  java.lang.String 
+2022-11-22 12:21:51,361 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:21:51,361 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - closeConnection(commit=true)
+2022-11-22 12:21:51,361 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:21:51,362 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:21:51,362 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /closeConnection(commit=true)
+2022-11-22 12:21:51,364 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - executeQueryAsCachedRowSet (all_accounts.sql) with Params([100])
+2022-11-22 12:21:51,364 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - get connection with query flag : true 
+2022-11-22 12:21:51,364 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - return query connection 
+2022-11-22 12:21:51,365 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getQueryConnection() 
+2022-11-22 12:21:51,365 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:21:51,365 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:21:51,366 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:21:51,366 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:21:51,367 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:21:51,368 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:21:51,368 [main] DEBUG  c.j.c.c.s.JKDefaultCacheManager - @get (/jk/sql/all_accounts.sql) for class (java.lang.String) 
+2022-11-22 12:21:51,368 [main] DEBUG  c.j.c.c.s.JKDefaultCacheManager - @getCachableMap for class  java.lang.String 
+2022-11-22 12:21:51,371 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:21:51,371 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - closeConnection(commit=true)
+2022-11-22 12:21:51,371 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:21:51,372 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:21:51,372 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /closeConnection(commit=true)
+2022-11-22 12:21:51,551 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - executeQueryAsCachedRowSet (all_accounts.sql) with Params([100])
+2022-11-22 12:21:51,551 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - get connection with query flag : true 
+2022-11-22 12:21:51,551 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - return query connection 
+2022-11-22 12:21:51,551 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getQueryConnection() 
+2022-11-22 12:21:51,551 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:21:51,552 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:21:51,552 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:21:51,552 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:21:51,553 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:21:51,554 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:21:51,554 [main] DEBUG  c.j.c.c.s.JKDefaultCacheManager - @get (/jk/sql/all_accounts.sql) for class (java.lang.String) 
+2022-11-22 12:21:51,554 [main] DEBUG  c.j.c.c.s.JKDefaultCacheManager - @getCachableMap for class  java.lang.String 
+2022-11-22 12:21:51,556 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:21:51,556 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - closeConnection(commit=true)
+2022-11-22 12:21:51,556 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:21:51,556 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:21:51,556 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /closeConnection(commit=true)
+2022-11-22 12:21:51,562 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - getList 
+2022-11-22 12:21:51,572 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - getList 
+2022-11-22 12:21:51,572 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - get connection with query flag : true 
+2022-11-22 12:21:51,572 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - return query connection 
+2022-11-22 12:21:51,573 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getQueryConnection() 
+2022-11-22 12:21:51,573 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:21:51,573 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:21:51,573 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:21:51,573 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:21:51,573 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:21:51,573 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:21:51,574 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - 
+ 	SELECT * FROM accounts WHERE balance>? , with Params () 
+2022-11-22 12:21:51,575 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@59696551 [wrapping: prep8: SELECT * FROM accounts WHERE balance>? {1: 100}]
+2022-11-22 12:21:51,576 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:21:51,577 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - closeConnection(commit=true)
+2022-11-22 12:21:51,577 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:21:51,577 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:21:51,577 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /closeConnection(commit=true)
+2022-11-22 12:21:51,579 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - find 
+2022-11-22 12:21:51,588 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - exeuteSingleOutputQuery 
+2022-11-22 12:21:51,589 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - get connection with query flag : true 
+2022-11-22 12:21:51,589 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - return query connection 
+2022-11-22 12:21:51,589 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getQueryConnection() 
+2022-11-22 12:21:51,589 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getConnection() 
+2022-11-22 12:21:51,589 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - createConnection() 
+2022-11-22 12:21:51,589 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - getSessionFactory() 
+2022-11-22 12:21:51,589 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getSessionFactory() 
+2022-11-22 12:21:51,590 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /createConnection() 
+2022-11-22 12:21:51,591 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /getConnection() 
+2022-11-22 12:21:51,592 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - 
+ 	SELECT * FROM accounts WHERE name=? , with Params () 
+2022-11-22 12:21:51,594 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - findRecord, ps (com.mchange.v2.c3p0.impl.NewProxyPreparedStatement@489091bd [wrapping: prep9: SELECT * FROM accounts WHERE name=? {1: 'Jalal'}]) 
+2022-11-22 12:21:51,595 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - Object found (com.app.models.Account@3743539f) 
+2022-11-22 12:21:51,595 [main] DEBUG  c.jk.data.vendors.h2.H2DataAccess - closing connection 
+2022-11-22 12:21:51,595 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - closeConnection(commit=true)
+2022-11-22 12:21:51,596 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - Closing connection 
+2022-11-22 12:21:51,596 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /Closing connection 
+2022-11-22 12:21:51,596 [main] DEBUG  c.j.d.d.impl.JKHibernateDataSource - /closeConnection(commit=true)

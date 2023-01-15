@@ -1,0 +1,7 @@
+2022-12-08 20:45:59,816 [main] INFO  com.jk.core.config.JKConfig - Init.. 
+2022-12-08 20:45:59,866 [main] INFO  com.jk.core.config.JKConfig - Adding all environment variables 
+2022-12-08 20:45:59,958 [main] INFO  com.jk.core.config.JKConfig - App JKFramework-App config loading completed.  
+2022-12-08 20:46:12,394 [main] TRACE  com.app.logger.JKLoggerExample - Print trace message with value Dummy value
+2022-12-08 20:46:12,400 [main] DEBUG  com.app.logger.JKLoggerExample - Print debug message with value Dummy value
+2022-12-08 20:46:12,400 [main] INFO  com.app.logger.JKLoggerExample - Print info message with value Dummy value
+2022-12-08 20:46:12,401 [main] ERROR  com.app.logger.JKLoggerExample - Print error message with value Dummy value

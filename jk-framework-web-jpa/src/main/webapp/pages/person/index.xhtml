@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:jk="http://jalalkiswani.com/jsf"
+	xmlns:p="http://primefaces.org/ui" xmlns:ui="http://xmlns.jcp.org/jsf/facelets" xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+	xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:of="http://omnifaces.org/ui">
+<ui:composition template="/WEB-INF/templates/default.xhtml">
+	<ui:define name="contents">
+		<h:form id="frmModel">
+			<p:autoUpdate />
+			<p:panelGrid columns="4" style="margin:auto;" styleClass="shaddow">
+				<f:facet name="header">Person Form</f:facet>
+
+				<p:outputLabel value="National Id" for="nationalId" />
+				<p:inputText type="text" value="#{controller.model.nationalId}" id="nationalId" placeholder="NationalId" />
+
+				<p:outputLabel value="Name" for="name" />
+				<p:inputText type="text" value="#{controller.model.name}" id="name" placeholder="Name" />
+
+				<p:outputLabel value="Email" for="email" />
+				<p:inputText type="text" value="#{controller.model.email}" id="email" placeholder="Email" />
+
+				<p:outputLabel value="Address" for="address" />
+				<p:inputText type="text" value="#{controller.model.address}" id="address" placeholder="Address" />
+				<f:facet name="footer">
+					<div align="center">
+						<p:commandButton value="Add" action="#{controller.add}" rendered="#{controller.allowAdd}" process="@form" />
+						<p:commandButton value="Edit" action="#{controller.edit}" rendered="#{controller.allowEdit}" process="@this" />
+						<ui:remove>
+							<p:commandButton value="Duplicate" action="#{mbGenerator.duplicate()}" rendered="#{mbGenerator.allowEdit}" process="@this" />
+						</ui:remove>
+						<p:commandButton value="Save" action="#{controller.save}" rendered="#{controller.allowSave}" process="@form" />
+						<p:commandButton value="Delete" action="#{controller.delete}" rendered="#{controller.allowDelete}" process="@this" />
+						<p:commandButton value="Reset" action="#{controller.reset}" rendered="#{controller.allowReset}" process="@this" />
+						<p:commandButton value="Fill" action="#{controller.fill}" rendered="#{controller.allowFill}" process="@this" />
+						<p:commandButton value="Cancel Edit" action="#{controller.cancelEdit()}" rendered="#{controller.editMode}" process="@this" />
+					</div>
+				</f:facet>
+
+			</p:panelGrid>
+		</h:form>
+		<hr />
+		<h:form>
+			<p:dataTable value="#{controller.modelList}" var="model" rowKey="#{model.id}" paginator="true" paginatorAlwaysVisible="false"
+				paginatorPosition="bottom" selectionMode="single" filteredValue="#{controller.filterList}" selection="#{controller.model}" emptyMessage=""
+				rowIndexVar="row" styleClass="shaddow">
+				<p:ajax event="rowSelect" />
+				<p:autoUpdate />
+				<f:facet name="header">Person Data Table</f:facet>
+				<p:column headerText="#">#{row+1}</p:column>
+				<p:column headerText="national Id" sortBy="#{model.nationalId}" filterBy="#{model.nationalId}" filterMatchMode="contains">
+					<h:outputText value="#{model.nationalId==null?'-':model.nationalId}" />
+				</p:column>
+				<p:column headerText="name" sortBy="#{model.name}" filterBy="#{model.name}" filterMatchMode="contains">
+					<h:outputText value="#{model.name==null?'-':model.name}" />
+				</p:column>
+				<p:column headerText="email" sortBy="#{model.email}" filterBy="#{model.email}" filterMatchMode="contains">
+					<h:outputText value="#{model.email==null?'-':model.email}" />
+				</p:column>
+				<p:column headerText="address" sortBy="#{model.address}" filterBy="#{model.address}" filterMatchMode="contains">
+					<h:outputText value="#{model.address==null?'-':model.address}" />
+				</p:column>
+			</p:dataTable>
+		</h:form>
+	</ui:define>
+</ui:composition>
+</html>
