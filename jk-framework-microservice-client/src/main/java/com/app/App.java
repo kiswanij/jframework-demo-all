@@ -20,5 +20,8 @@ public class App {
 
 		String response3 = client.callJsonWithPost("/hello", p);
 		JK.print(response3);
+
+		String response4 = client.callJsonWithPatch("/hello", p);
+		JK.print(response4);
 	}
 }
