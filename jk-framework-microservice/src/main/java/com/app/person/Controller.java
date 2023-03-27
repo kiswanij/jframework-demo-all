@@ -10,7 +10,6 @@ import com.jk.services.server.JKAbstractRestController;
 @Path("/example")
 public class Controller extends JKAbstractRestController{
 
-	@GET
 	@Path("hello")
 	public String sayHello() {
 		return "Hello from uncle Jalal";

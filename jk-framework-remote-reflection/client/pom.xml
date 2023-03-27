@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.jalalkiswani</groupId>
 		<artifactId>jk-app</artifactId>
-		<version>6.2.0-SNAPSHOT</version>
+		<version>6.4.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>jk-framework-remote-reflection-client-example</artifactId>
 </project>
