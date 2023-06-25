@@ -7,7 +7,7 @@
 	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
 		<layout class="ch.qos.logback.classic.PatternLayout">
 			<Pattern>
-				%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n
+				%d{HH:mm:ss.SSS} AppName %-5level %logger{36} - %msg%n
 			</Pattern>
 		</layout>
 	</appender>
@@ -28,7 +28,7 @@
 	</appender>
 
 	<!-- Levels are: TRACE, DEBUG, INFO, WARN, info, ALL or OFF -->
-	<logger name="com.jk" level="info" />
+	<logger name="com.jk" level="debug" />
 
 	<logger name="com.jk.util.exceptions" level="debug" />
 	<logger name="org.springframework" level="info" />
