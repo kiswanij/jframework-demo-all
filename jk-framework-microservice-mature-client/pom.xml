@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.jalalkiswani</groupId>
-		<artifactId>jk-app-webstack</artifactId>
+		<artifactId>j-app-webstack</artifactId>
 		<version>6.5.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>jk-framework-microservice-mature-client-example</artifactId>
+	<artifactId>j-framework-microservice-mature-client-example</artifactId>
 	<packaging>war</packaging>
 </project>

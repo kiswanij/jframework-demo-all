@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.UUID;
 import java.util.Vector;
 
+import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
 import javax.inject.Named;
 
@@ -11,7 +12,7 @@ import com.jk.data.dataaccess.JKDataAccessFactory;
 import com.jk.data.dataaccess.nosql.JKNoSqlDataAccess;
 import com.jk.web.faces.controllers.JKWebController;
 
-@Named("controller")
+@ManagedBean(name="controller")
 @ViewScoped
 public class Controller extends JKWebController {
 	JKNoSqlDataAccess da = JKDataAccessFactory.getNoSqlDataAccess();

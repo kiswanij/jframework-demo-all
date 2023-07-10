@@ -7,5 +7,5 @@
 		<artifactId>jk-app</artifactId>
 		<version>6.5.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>jk-framework-remote-reflection-client-example</artifactId>
+	<artifactId>j-framework-remote-reflection-client-example</artifactId>
 </project>

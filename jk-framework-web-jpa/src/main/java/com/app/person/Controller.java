@@ -1,11 +1,11 @@
 package com.app.person;
 
+import javax.faces.bean.ManagedBean;
 import javax.faces.view.ViewScoped;
-import javax.inject.Named;
 
 import com.jk.webstack.controllers.JKWebControllerWithOrmSupport;
 
-@Named("controller")
+@ManagedBean(name="controller")
 @ViewScoped
 public class Controller extends JKWebControllerWithOrmSupport<Model> {
 }

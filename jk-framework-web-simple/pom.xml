@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.jalalkiswani</groupId>
-		<artifactId>jk-app-web</artifactId>
+		<artifactId>j-app-web</artifactId>
 		<version>6.5.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>jk-framework-web-simple-example</artifactId>
+	<artifactId>j-framework-web-simple-example</artifactId>
 	<packaging>war</packaging>
 	<dependencies> 
 		<dependency>

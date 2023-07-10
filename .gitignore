@@ -12,3 +12,4 @@ front-end/.vscode/settings.json
 *.vpp.*
 target
 .class
+*.log
