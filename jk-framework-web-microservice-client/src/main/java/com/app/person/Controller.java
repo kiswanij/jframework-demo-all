@@ -1,12 +1,11 @@
 package com.app.person;
 
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.ViewScoped;
-import javax.inject.Named;
+import jakarta.faces.view.ViewScoped;
+import jakarta.inject.Named;
 
 import com.jk.web.faces.controllers.JKWebController;
 
-@ManagedBean(name="controller")
+@Named("controller")
 @ViewScoped
 public class Controller extends JKWebController{
 	private ServiceClient client = new ServiceClient();

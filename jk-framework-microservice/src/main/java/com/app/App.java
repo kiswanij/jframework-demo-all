@@ -1,6 +1,6 @@
 package com.app;
 
-import javax.ws.rs.ApplicationPath;
+import jakarta.ws.rs.ApplicationPath;
 
 import com.jk.services.server.JKServiceConfig;
 import com.jk.web.embedded.JKWebApplication;
