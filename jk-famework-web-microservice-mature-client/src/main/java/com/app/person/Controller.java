@@ -3,10 +3,10 @@ package com.app.person;
 import java.util.List;
 import java.util.Vector;
 
+import com.jk.web.faces.controllers.JKWebController;
+
 import jakarta.faces.view.ViewScoped;
 import jakarta.inject.Named;
-
-import com.jk.web.faces.controllers.JKWebController;
 
 @Named("controller")
 @ViewScoped
